@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/roz">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvHeader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="«Развитие и релакс»"
+            android:textColor="@color/roz1"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp" />
+        <TextView
+            android:id="@+id/tvHeaderr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="У нас ты ощутишь настоящий релакс"
+            android:textColor="@color/roz1"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="16dp">
+
+            <ImageView
+                android:id="@+id/imgWitcher"
+                android:layout_width="190dp"
+                android:layout_height="120dp"
+                android:src="@drawable/masa"
+                android:scaleType="centerCrop"/>
+
+            <TextView
+                android:id="@+id/tvWitcher"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="thai"
+                android:textColor="@color/roz1"
+                android:textSize="18sp"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="16dp">
+
+            <ImageView
+                android:id="@+id/imgJessicaJones"
+                android:layout_width="190dp"
+                android:layout_height="160dp"
+                android:src="@drawable/liz"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:id="@+id/tvJessicaJones"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="facial massage"
+                android:textColor="@color/roz1"
+                android:textSize="18sp"
+                android:layout_marginTop="8dp"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="16dp">
+
+            <ImageView
+                android:id="@+id/imgOther"
+                android:layout_width="190dp"
+                android:layout_height="115dp"
+                android:src="@drawable/cil"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:id="@+id/tvOther"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="anti-cellulite"
+                android:textColor="@color/roz1"
+                android:textSize="18sp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center_horizontal" />
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Введите вид массажа"
+                android:minHeight="48dp"
+                android:padding="10dp"
+                android:textColor="@color/roz1"
+                android:textColorHint="@color/roz1"
+                android:textSize="16dp" />
+
+            <Button
+                android:id="@+id/btnAdd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/addToSpis"
+                android:backgroundTint="@color/roz1"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
